@@ -3,11 +3,11 @@ use rand::Rng;
 use std::cmp::Ordering;
 fn main() {
     println!("Guessing game");
+    let secret_number = rand::thread_rng().gen_range(1..=10);
 
     //loop is like while loop
     loop
     {
-    let secret_number = rand::thread_rng().gen_range(1..=10);
     println!("enter your guess");
     
     let mut guess_number = String::new();
@@ -41,7 +41,7 @@ fn main() {
             break;
         }
     }
-x^x
+
 
    }
 

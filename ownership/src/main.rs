@@ -9,7 +9,7 @@ fn main() {
        
        //Box::new - creates an array of 1 million elements on heap
        //if a = 0;1000000 - its defined in stack - so in variable is created in frames
-       //here by using Box::new - its defined in heap
+       //here by using Box::new - its defined in heap----
        //Heap is not tied to a specific frame
         let a = Box::new([0; 1_000_000]);
         let b = a;

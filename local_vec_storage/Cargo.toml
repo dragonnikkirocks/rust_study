@@ -1,0 +1,16 @@
+[package]
+name = "local_vec_storage"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[features]
+default = []
+all = ["f"]
+a = []
+b = ["a"]
+c = ["b"]
+d = ["c"]
+e = ["d"]
+f = ["e"]
